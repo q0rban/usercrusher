@@ -1,0 +1,3 @@
+name = User Crusher
+description = Kill performance of loading users.
+core = 7.x

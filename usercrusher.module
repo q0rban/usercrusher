@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * User Crusher.
+ */
+
+function usercrusher_user_load($users) {
+  foreach ($users as $account) {
+    // Sleep for 10 milleseconds.
+    usleep(10000);
+  }
+}
